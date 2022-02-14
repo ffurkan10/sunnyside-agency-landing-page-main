@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Kumbh+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* MENU */
+.all {
+  background: url(images/desktop/image-header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: "Barlow", sans-serif;
+  flex-wrap: wrap;
+}
+.logo {
+  z-index: 100;
+}
+.list {
+  display: flex;
+}
+.navbar ul li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+#last {
+  color: black;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+}
+.hamburger:focus {
+  outline: none;
+}
+.close-hamburger {
+  display: none;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.header {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.creatives {
+  margin-top: 50px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.creatives h1 {
+  font-family: "Fraunces", serif;
+}
+.arrow {
+  margin-top: 50px;
+}
+
+.galeri {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+}
+#galeri {
+  margin-top: -10px;
+}
+.icerik {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
+.foto {
+  width: 50%;
+}
+.foto img {
+  width: 100%;
+}
+.kapsayici {
+  width: 50%;
+}
+.yazi {
+  width: 60%;
+  margin: 0 auto;
+}
+.yazi h2 {
+  font-size: 35px;
+  width: 70%;
+  margin-bottom: 20px;
+  font-family: "Fraunces", serif;
+  color: hsl(212, 27%, 19%);
+}
+.yazi p {
+  margin-bottom: 20px;
+  color: hsl(232, 10%, 55%);
+}
+.yazi a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  border-bottom: 5px solid hsl(51, 100%, 49%);
+  color: hsl(212, 27%, 19%);
+}
+#learn {
+  border-bottom: 5px solid hsl(7, 99%, 70%);
+}
+
+.foto-1 {
+  background: url(images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 90vh;
+  margin-top: -10px;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: hsl(167, 40%, 24%);
+}
+.foto-2 {
+  background: url(images/desktop/image-photography.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 90vh;
+  margin-top: -10px;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: hsl(198, 62%, 26%);
+}
+.foto-1 h3 {
+  font-size: 25px;
+}
+.foto-2 h3 {
+  font-size: 25px;
+}
+
+.foto-1 p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+.foto-2 p {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 18px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.tanitim {
+  width: 90%;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.client {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: "Fraunces", serif;
+  margin-top: 50px;
+  color: hsl(232, 10%, 55%);
+}
+
+.kisi-tanitim {
+  width: 30%;
+}
+
+.kisiler {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Barlow", sans-serif;
+}
+.kisiler img {
+  width: 30%;
+  border-radius: 100px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.kisiler h3 {
+  font-weight: bolder;
+  color: hsl(212, 27%, 19%);
+}
+.kisiler p {
+  color: hsl(213, 9%, 39%);
+  margin-bottom: 20px;
+}
+#name {
+  color: hsl(232, 10%, 55%);
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.image {
+  width: 25%;
+}
+.image img {
+  width: 100%;
+}
+
+.footer {
+  width: 100%;
+  background-color: hsl(168, 34%, 41%);
+  height: 50vh;
+  margin-top: -4px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sunny {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Fraunces", serif;
+}
+.sunny img {
+  color: hsl(167, 40%, 24%);
+}
+.footer-selection {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.footer-selection a {
+  text-decoration: none;
+  color: white;
+  margin: 10px;
+  padding: 10px;
+  color: hsl(167, 40%, 24%);
+  font-family: "Barlow", sans-serif;
+}
+
+.sosyal {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.sosyal-icon {
+  margin-top: 30px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .icerik {
+    line-height: 25px;
+  }
+  .yazi {
+    width: 70%;
+  }
+  .yazi h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+  .yazi p {
+    margin-bottom: 10px;
+  }
+  #galeri {
+    margin-top: -5px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .list {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .list.show {
+    display: flex;
+    transform: translateY(0);
+    align-items: center;
+    justify-content: center;
+    transition: transform 350ms ease-in-out;
+  }
+  .hamburger {
+    display: block;
+    z-index: 100;
+  }
+  .close-hamburger {
+    display: none;
+  }
+  .burger-click {
+    display: none;
+  }
+  .close-menu {
+    display: block;
+    z-index: 100;
+  }
+
+  .foto {
+    width: 100%;
+  }
+  .kapsayici {
+    width: 100%;
+  }
+  #icerik-ceviri {
+    flex-direction: column-reverse;
+    margin-top: 0%;
+  }
+  .icerik {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .yazi h2 {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .icerik-foto {
+    flex-wrap: wrap;
+  }
+  .foto-1 {
+    margin-top: 0%;
+    width: 100%;
+  }
+  .foto-2 {
+    margin-top: 0%;
+    width: 100%;
+  }
+
+  .tanitim {
+    flex-wrap: wrap;
+  }
+  .kisi-tanitim {
+    width: 70%;
+  }
+
+  .images {
+    flex-wrap: wrap;
+  }
+  .image {
+    width: 50%;
+  }
+}
